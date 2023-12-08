@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(1rem); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.slideUp {
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes scaleUpText {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1); 
+  }
+}
+
+.scaleUp {
+  animation: scaleUpText 2s ease-in-out infinite alternate;
+}
