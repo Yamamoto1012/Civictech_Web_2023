@@ -7,17 +7,17 @@ export default function AboutContainer() {
       <div className="flex flex-wrap justify-center gap-5 md:gap-14">
         <AboutCircle
           title="01"
-          text="シビックテックは、テクノロジーを活用して、市民が政治や地域社会の問題に積極的に参加します。"
+          text="市民が行政と連携しながら、さまざまな社会的課題をデジタル技術やオープンデータを活用して解決する取り組みです"
           color="bg-[#FFC7C7]"
         />
         <AboutCircle
           title="02"
-          text="シビックテックは、公共サービスを効率化し、市民の生活の質を高めることを目指しています。"
+          text="公共サービスの利便性向上や市民参加型の地域社会の実現などによって、持持続可能な都市や地域の創出に貢献します"
           color="bg-[#FFE2E2]"
         />
         <AboutCircle
           title="03"
-          text="シビックテックの目標の一つは、政府や地方自治体の透明性を高めることです。"
+          text="アメリカで始まったた概念であり、日本でもスマートシティと相性がよく、コロナ禍などで社会環境が変化する中で注目されています"
           color="bg-[#8785A2]"
         />
       </div>
