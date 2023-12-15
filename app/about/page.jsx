@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <>
+    <div className="p-4">
       <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
@@ -92,6 +92,6 @@ export default function AboutPage() {
           {/* 追加セクションはここに */}
         </div>
       </div>
-    </>
+    </div>
   );
 }
