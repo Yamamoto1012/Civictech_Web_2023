@@ -2,7 +2,7 @@ import AboutCircle from "./AboutCircle";
 
 export default function AboutContainer() {
   return (
-    <div className="text-center p-8 md:px-8 shadow-3xl">
+    <div className="text-center p-8 md:px-8 shadow-lg">
       <h3 className="text-3xl font-semibold mb-6">シビックテックについて</h3>
       <div className="flex flex-wrap justify-center gap-5 md:gap-14">
         <AboutCircle

@@ -5,7 +5,7 @@ import CaseTitle from "./CaseTitle";
 function CaseContainer() {
   return (
     <div>
-      <div className="h-[704px] w-full rounded-3xl">
+      <div className="h-[704px] w-full rounded-3xl shadow-md">
         <CaseTitle title="事例①" color="bg-[#FFC7C7]" />
         <div>
           <CasePicture picture="/5374.png"/>
