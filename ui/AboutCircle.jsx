@@ -7,7 +7,7 @@ export default function AboutCircle({ title, text, color }) {
       color
     )}>
       <h4 className=" text-5xl drop-shadow-3xl font-bold text-white mb-4">{title}</h4>
-      <p className="text-white drop-shadow-2xl font-normal text-3xl md:text-base lg:text-lg">{text}</p>
+      <p className="text-white drop-shadow-2xl font-normal text-2xl md:text-base lg:text-lg">{text}</p>
     </div>
   );
 }
