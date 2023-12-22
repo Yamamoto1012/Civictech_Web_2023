@@ -18,8 +18,66 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-4">
           {/* セクション1 */}
           <div className="bg-white shadow-lg rounded-lg p-6">
-            <h2 className="text-2xl font-bold mb-2">セクションのタイトル</h2>
-            <p>ここにセクションの内容を記述します。</p>
+            <h2 className="text-2xl font-bold mb-4">シビックテックの歴史</h2>
+            <div className="space-y-4">
+              {/* 年表のアイテム */}
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2008年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Code for Americaの設立</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2011年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>sinsai.info</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2013年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Code for Kanazawa、Code for Japan設立</p>
+                </div>
+              </div>
+
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2014年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Code for Namie</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2020年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>東京都新型コロナウイルス感染症対策サイト</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2020年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Civictech Challenge Cup u-22</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2021年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Civictech Accelerator Program</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
+                <div className="text-lg font-semibold w-24">2021年</div>
+                <div className="border-l-2 border-gray-300 pl-4">
+                  <p>Make our City</p>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* セクション2 */}
