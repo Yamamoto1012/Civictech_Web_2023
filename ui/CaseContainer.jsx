@@ -31,7 +31,7 @@ function CaseContainer() {
           <CaseTitle title="のとノットアローン" color="bg-[#8785A2]" />
           <div className="flex flex-col md:flex-row justify-center items-center mx-4 md:mx-20 mt-8 space-y-4 md:space-y-0 md:space-x-36">
             <CasePicture picture="/noto.png" link="http://noto.not-alone.jp/" />
-            <CaseMainContext text="のとノットアローンは、奥能登で孤立しがちな子育てママの手をテクノロジーの力でで繋ぎたいという目的で作られたサービスです。" />
+            <CaseMainContext text="のとノットアローンは、奥能登で孤立しがちな子育てママの手をテクノロジーの力で繋ぎたいという目的で作られたサービスです。" />
           </div>
         </div>
       </div>
