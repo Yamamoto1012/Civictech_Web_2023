@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-// components/CaseCard.js
 function CaseCard({ title, description, imageUrl, linkUrl }) {
   return (
-    <Link href={linkUrl} className="bg-white shadow-lg rounded-lg p-6 duration-300 ease-in-out transform hover:scale-105">
+    <Link
+      href={linkUrl}
+      className="bg-white shadow-lg rounded-lg p-6 duration-300 ease-in-out transform hover:scale-105"
+    >
       <Image
         src={imageUrl}
         width={500}

@@ -3,7 +3,7 @@ function CaseMainContext({ text }) {
     <div className="flex items-center justify-center h-auto w-full md:w-1/2 shadow-md rounded-md text-xl p-4">
       {text}
     </div>
-  )
+  );
 }
 
-export default CaseMainContext
+export default CaseMainContext;

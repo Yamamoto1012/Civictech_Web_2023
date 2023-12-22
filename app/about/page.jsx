@@ -40,7 +40,6 @@ export default function AboutPage() {
                 </div>
               </div>
 
-
               <div className="flex items-start">
                 <div className="text-lg font-semibold w-24">2014年</div>
                 <div className="border-l-2 border-gray-300 pl-4">
@@ -143,7 +142,6 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

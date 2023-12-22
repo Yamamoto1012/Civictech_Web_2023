@@ -11,5 +11,5 @@ export default function Home() {
       <AboutContainer />
       <CaseContainer />
     </div>
-  )
+  );
 }
