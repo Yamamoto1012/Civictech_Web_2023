@@ -13,7 +13,7 @@ export default function AboutContainer() {
         <AboutCircle
           title="02"
           text="公共サービスの利便性向上や市民参加型の地域社会の実現などによって、持持続可能な都市や地域の創出に貢献します"
-          color="bg-[#FFE2E2]"
+          color="bg-[#FF8D8D]"
         />
         <AboutCircle
           title="03"

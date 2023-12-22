@@ -3,7 +3,7 @@ import CaseCard from "./CaseCard";
 
 export default function CasePage() {
   return (
-    <>
+    <div className="p-4">
       <Header />
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-8">
@@ -62,6 +62,6 @@ export default function CasePage() {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 }

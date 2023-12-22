@@ -16,11 +16,9 @@ export default function AboutPage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">
-          {/* セクション1 */}
           <div className="bg-white shadow-lg rounded-lg p-6">
             <h2 className="text-2xl font-bold mb-4">シビックテックの歴史</h2>
             <div className="space-y-4">
-              {/* 年表のアイテム */}
               <div className="flex items-start">
                 <div className="text-lg font-semibold w-24">2008年</div>
                 <div className="border-l-2 border-gray-300 pl-4">
@@ -80,7 +78,6 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* セクション2 */}
           <div className="bg-white shadow-lg rounded-lg p-6">
             <h2 className="text-2xl font-bold mb-4">中部地方の関連する団体</h2>
             <div className="grid md:grid-cols-2 gap-4">
@@ -147,7 +144,6 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* 追加セクションはここに */}
         </div>
       </div>
     </div>
